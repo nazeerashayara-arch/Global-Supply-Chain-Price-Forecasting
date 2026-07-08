@@ -128,17 +128,7 @@ The Tableau dashboard provides:
 
 # 🖼️ Dashboard Preview
 
-> Replace the image filename below if your dashboard image has a different name.
-
-```markdown
 ![Dashboard](Tableau Dashboard.png)
-```
-
-After replacing the line above with the actual image link (remove the ```markdown fences), it should simply be:
-
-```text
-![Dashboard](Dashboard.png)
-```
 
 ---
 
