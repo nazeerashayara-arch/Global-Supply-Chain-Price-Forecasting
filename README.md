@@ -137,7 +137,7 @@ The Tableau dashboard provides:
 After replacing the line above with the actual image link (remove the ```markdown fences), it should simply be:
 
 ```text
-![Dashboard](Tableau Dashboard.png)
+![Dashboard](Dashboard.png)
 ```
 
 ---
