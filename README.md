@@ -1,60 +1,84 @@
-\# 🪙 Gold Price Forecasting Using Machine Learning and Tableau
+# 🪙 Global Supply Chain Commodity Price Forecasting & Volatility Analytics
 
+<p align="center">
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-\## 📌 Project Overview
+</p>
 
+---
 
+## 📌 Project Overview
 
-Gold price forecasting plays a vital role in financial planning, investment strategies, and market analysis. This project uses Machine Learning techniques to analyze historical gold price data and forecast future prices. The project also includes an interactive Tableau dashboard to visualize market trends and forecasting insights.
+This project focuses on forecasting commodity prices using historical gold market data and Machine Learning techniques. It analyzes historical trends, performs data preprocessing, builds a predictive model, evaluates its performance, and presents insights through an interactive Tableau dashboard.
 
+---
 
+## 🎯 Project Objectives
 
-\---
+- Forecast future commodity prices using Machine Learning.
+- Analyze historical gold price trends.
+- Perform feature engineering and data preprocessing.
+- Evaluate model performance using regression metrics.
+- Build an interactive Tableau dashboard for business insights.
 
+---
 
+## 🛠️ Technology Stack
 
-\## 🎯 Project Objectives
+| Category | Technologies |
+|-----------|--------------|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Tableau, Matplotlib |
+| Machine Learning | Scikit-learn |
+| Development | Jupyter Notebook |
+| Version Control | Git & GitHub |
 
+---
 
+## 📊 Dataset Information
 
-\- Analyze historical gold price trends.
+| Item | Details |
+|------|---------|
+| Dataset | Historical Gold Price Dataset |
+| Source | Kaggle |
+| File | `gold.csv` |
 
-\- Perform data preprocessing and feature engineering.
+---
 
-\- Build a Machine Learning model for gold price forecasting.
+## 🔄 Project Workflow
 
-\- Evaluate model performance using regression metrics.
-
-\- Visualize insights through an interactive Tableau dashboard.
-
-
-
-\---
-
-
-
+```text
+Data Collection
+        │
+        ▼
+Data Preprocessing
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Machine Learning Model
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Gold Price Forecasting
+        │
+        ▼
+Tableau Dashboard
 ```
 
-
-
-\---
-
-
-
-\## 📊 Dataset Information
-
-
-
-\- Dataset: Historical Gold Price Dataset
-
-\- Source: Kaggle
-
-\- File: `gold.csv`
-
-
-
-The dataset contains historical gold price information used for forecasting future market prices.
+---
 
 ## 📂 Project Structure
 
@@ -71,223 +95,100 @@ Global-Supply-Chain-Price-Forecasting/
 └── PPT_Commodity Price Forecasting & Volatility Analytics.pdf
 ```
 
+---
 
+## 🤖 Machine Learning
 
-\---
+The forecasting model was trained using historical commodity price data to predict future gold prices.
 
+### 📈 Model Performance
 
+| Metric | Score |
+|---------|-------|
+| MAE | **2.98248** |
+| MSE | **21.96412** |
+| RMSE | **4.68659** |
+| R² Score | **0.9999219** |
 
-\## 🛠️ Technologies Used
+✅ The model achieved excellent prediction accuracy with a very high R² Score.
 
+---
 
+## 📊 Tableau Dashboard Features
 
-\- Python
+The Tableau dashboard provides:
 
-\- Jupyter Notebook
+- 📈 Historical Gold Price Trends
+- 📅 Monthly & Yearly Analysis
+- 📊 Forecast Visualization
+- 📉 Price Distribution
+- 📌 Key Performance Indicators (KPIs)
 
-\- Pandas
+---
 
-\- NumPy
+# 🖼️ Dashboard Preview
 
-\- Scikit-learn
+> Replace the image filename below if your dashboard image has a different name.
 
-\- Matplotlib
+```markdown
+![Dashboard](Tableau Dashboard.png)
+```
 
-\- Tableau
+After replacing the line above with the actual image link (remove the ```markdown fences), it should simply be:
 
-\- Machine Learning
+```text
+![Dashboard](Tableau Dashboard.png)
+```
 
-\- Git \& GitHub
+---
 
-
-
-\---
-
-
-
-\## 🔄 Project Workflow
-
-
-
-1\. Data Collection
-
-2\. Data Preprocessing
-
-3\. Feature Engineering
-
-4\. Exploratory Data Analysis (EDA)
-
-5\. Model Training
-
-6\. Model Evaluation
-
-7\. Gold Price Forecasting
-
-8\. Tableau Dashboard Development
-
-
-
-\---
-
-
-
-\## 🤖 Machine Learning
-
-
-
-The project applies Machine Learning techniques to predict future gold prices using historical market data.
-
-
-
-\### Model Evaluation
-
-
-
-| Metric | Value |
-
-|---------|--------|
-
-| MAE | 2.98248 |
-
-| MSE | 21.96412 |
-
-| RMSE | 4.68659 |
-
-| R² Score | 0.9999219 |
-
-
-
-The model achieved excellent predictive performance with a very high R² Score.
-
-
-
-\---
-
-
-
-\## 📈 Tableau Dashboard Features
-
-
-
-The dashboard provides interactive visualizations including:
-
-
-
-\- Historical Gold Price Trends
-
-\- Monthly and Yearly Price Analysis
-
-\- Forecasted Gold Prices
-
-\- Price Distribution
-
-\- Key Performance Indicators (KPIs)
-
-
-
-\---
-
-
-
-\## 🖼️ Dashboard Preview
-
-
-
-!\[Dashboard](Dashboard.png)
-
-
-
-\---
-
-
-
-\## 📁 Files Included
-
-
+## 📁 Repository Files
 
 | File | Description |
-
 |------|-------------|
+| `gold.csv` | Historical Gold Price Dataset |
+| `gold_csv.ipynb` | Data preprocessing and feature engineering |
+| `gold_price_forecasting.ipynb` | Complete Machine Learning workflow |
+| `gold_price_forecasting_model.pkl` | Trained ML model |
+| `Tableau Dashboard.png` | Tableau Dashboard |
+| `Report_Global Supply Chain Commodity Price Forecasting.pdf` | Detailed Project Report |
+| `PPT_Commodity Price Forecasting & Volatility Analytics.pdf` | Project Presentation |
 
-| gold.csv | Historical Gold Price Dataset |
+---
 
-| gold\_csv.ipynb | Data preprocessing and feature engineering |
+## 🚀 Future Improvements
 
-| gold\_price\_forecasting.ipynb | Complete Machine Learning workflow |
+- Deploy the forecasting model using Streamlit.
+- Integrate live commodity price APIs.
+- Compare multiple forecasting algorithms.
+- Improve forecasting accuracy using ensemble models.
+- Automate dashboard updates.
 
-| gold\_price\_model.pkl | Trained Machine Learning model |
+---
 
-| Dashboard.png | Tableau Dashboard |
+## 👩‍💻 Author
 
-| Report\_Gold\_Price\_Forecasting.pdf | Detailed Project Report |
+### **Nazeera Bhanu**
 
-| PPT\_Gold\_Price\_Forecasting.pdf | Project Presentation |
+**Aspiring Data Analyst**
 
+### Skills
 
-
-\---
-
-
-
-\## 🚀 Future Improvements
-
-
-
-\- Deploy the forecasting model as a web application.
-
-\- Integrate real-time gold price data.
-
-\- Compare multiple forecasting algorithms.
-
-\- Improve prediction accuracy using advanced ensemble methods.
-
-
-
-\---
-
-
-
-\## 👩‍💻 Author
-
-
-
-\*\*Nazeera Bhanu\*\*
-
-
-
-Aspiring Data Analyst
-
-
-
-\### Skills
-
-
-
-\- Python
-
-\- SQL
-
-\- Excel
-
-\- Tableau
-
-\- Power BI
-
-\- Machine Learning
-
-\- Data Analysis
-
-\- Data Visualization
-
-
+- Python
+- SQL
+- Excel
+- Tableau
+- Power BI
+- Machine Learning
+- Data Analysis
+- Data Visualization
 
 GitHub: https://github.com/nazeerashayara-arch
 
+---
 
+## ⭐ Support
 
-\---
+If you found this project useful, consider giving this repository a ⭐ on GitHub.
 
-
-
-⭐ If you found this project useful, feel free to explore the repository and its resources.
-
+---
