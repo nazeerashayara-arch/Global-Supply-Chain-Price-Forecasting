@@ -128,7 +128,7 @@ The Tableau dashboard provides:
 
 # 🖼️ Dashboard Preview
 
-![Dashboard](Tableau Dashboard.png)
+![Dashboard](Dashboard.png)
 
 ---
 
