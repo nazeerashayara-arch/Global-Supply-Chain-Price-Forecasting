@@ -132,6 +132,14 @@ The Tableau dashboard provides:
 
 ---
 
+
+## 🚀 Live Demo
+
+Streamlit App:
+https://global-supply-chain-price-forecasting-4xkjre6r6cx4uap6opdzea.streamlit.app/
+
+---
+
 ## 📁 Repository Files
 
 | File | Description |
