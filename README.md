@@ -25,6 +25,7 @@ This project focuses on forecasting commodity prices using historical gold marke
 - Perform feature engineering and data preprocessing.
 - Evaluate model performance using regression metrics.
 - Build an interactive Tableau dashboard for business insights.
+- Deploy the prediction model using Streamlit.
 
 ---
 
@@ -114,17 +115,6 @@ The forecasting model was trained using historical commodity price data to predi
 
 ---
 
-## 📊 Tableau Dashboard Features
-
-The Tableau dashboard provides:
-
-- 📈 Historical Gold Price Trends
-- 📅 Monthly & Yearly Analysis
-- 📊 Forecast Visualization
-- 📉 Price Distribution
-- 📌 Key Performance Indicators (KPIs)
-
----
 
 # 🖼️ Dashboard Preview
 
@@ -148,7 +138,7 @@ https://global-supply-chain-price-forecasting-4xkjre6r6cx4uap6opdzea.streamlit.a
 | `gold_csv.ipynb` | Data preprocessing and feature engineering |
 | `gold_price_forecasting.ipynb` | Complete Machine Learning workflow |
 | `gold_price_forecasting_model.pkl` | Trained ML model |
-| `Tableau Dashboard.png` | Tableau Dashboard |
+| ` Dashboard.png` | Tableau Dashboard |
 | `Report_Global Supply Chain Commodity Price Forecasting.pdf` | Detailed Project Report |
 | `PPT_Commodity Price Forecasting & Volatility Analytics.pdf` | Project Presentation |
 
